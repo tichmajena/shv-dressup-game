@@ -1,0 +1,95 @@
+.model{
+  width: 300px;
+  position:relative;
+  height: 620px;
+  margin: auto;
+}
+body{
+  background-color: #BDD9E5;
+  height: 100vh;
+}
+img{
+  width:100%;
+}
+
+.model-pic{
+  position:absolute;
+  z-index: -1;
+}
+.glasses{
+  top: 85px;
+}
+.tops{
+  top: 176px;
+}
+.jacket{
+  top: 0;
+  z-index: 3;
+}
+.bottom{
+  top: 257px;
+  z-index: 2;
+}
+.footware{
+  top: 543px;
+  z-index: 1;
+}
+
+button{
+  position: relative;
+
+  margin-left: -90px;
+
+left: 50%;
+right: 50%;
+}
+
+.pic{
+  position: absolute;
+}
+
+.dress-button{
+  width: 180px;
+  cursor: pointer;
+
+}
+
+/* .box-wrapper{
+  margin: 40px;
+  padding: 1%;
+  width:80%;
+  background-color: coral;
+
+}
+
+.box {
+  margin: 10px;
+  padding: 10px;
+  height: 50px;
+  width:98%;
+  border: 3px solid black;
+}
+
+.one{
+  background-color: green;
+  position: absolute;
+  height: 20px;
+  z-index: 1;
+  top:0px
+
+}
+
+.two{
+  background-color: red;
+
+}
+
+.three{
+  background-color: cyan;
+
+}
+
+.four{
+  background-color: yellow;
+
+} */
